@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+form{
+    border: solid 3px;
+    width: 60vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 2vh;
+    background-color: lightgray;
+}
+
+form>label{
+    font-size: 1.8rem;
+}
+
+form>input{
+    width: 60%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form > #btn{
+    cursor: pointer;
+    height: 4vh;
+}
+
+@media(width < 450px){
+    html{font-size: 10px;}
+}
+
+
